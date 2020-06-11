@@ -217,6 +217,9 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
     padding-top: 15vh;
 }
 
+#home-screen {
+    background-color: #303D4F!important
+}
 
 #home-screen a button {
     display: inline-block;
@@ -254,15 +257,17 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    padding: 20%;
 }
 
 #footer {
     color: #F6F4F1;
-    text-align: center;
-    background-color: rgb(33, 37, 41);
+    background-color: #303D4F;
     padding: 2vh 0vw;
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
+    text-align: end;
+    padding-right: 3%;
 }
 
 
@@ -332,7 +337,6 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
 
 #skill-card-container {
     display: flex;
-    flex-wrap: wrap;
 }
 
 #skill-card-container  div.skill-card {
@@ -412,7 +416,7 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
 --------------------------------------------------------------*/
 
 #education {
-    background-color: #11365C;
+    background-color: #303D4F;
     padding: 12vh 22vw 16vh 22vw
 }
 
@@ -591,7 +595,7 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
 --------------------------------------------------------------*/
 
 #professional-experience {
-    background-color: #11365C;
+    background-color: #303D4F;
     padding: 12vh 18vw 18vh 18vw;
 }
 

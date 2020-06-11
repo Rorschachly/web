@@ -327,25 +327,25 @@
     ],
     "SkillSet": [
         {
-            "title": "Web Dev.",
+            "title": "Programming Language",
             "iconLink": "icon-browser",
-            "skills": ["HTML5","CSS3", "Javascript", "React", "React Native", "jQuery", "D3.js", "ES7", "Node.js", "Bootstrap", "Wordpress", "Firsbase Database", "PHP"]
+            "skills": ["JavaScript", "Java", "C++", "C", "C#", "Python", "SQL", "HTML5", "CSS3"]
         },
         {
-            "title": "UI/UX Design",
+            "title": "Technologies",
             "iconLink": "icon-pencil",
-            "skills": ["User Research", "Wireframes", "Personas & Scenario", "Heuristic Evaluation", "Usability Test",
-                        "Storyboarding", "Prototyping", "Figma", "InVision", "Adobe Illustrator","Adobe XD",  "Adobe Photoshop"]
+            "skills": ["Git", "AWS", "Google Computing Engine", "Microsoft Azure", "D3.js", "Bootstrap", "OpenGL"]
         },
         {
-            "title": "Psychology",
+            "title": "Software",
             "iconLink": "icon-heart",
-            "skills": ["Interpersonal Communication", "Research", "Psychological Statistics", "UnderGrad. Teaching", "Special Needs Children", "Patience", "Problem-Solving"]
+            "skills": ["Unity", "Unreal Engine", "Tableau", "Adoble Video Production Suite"]
         },
         {
-            "title": "Others",
+            "title": "Intermidiate Skills",
             "iconLink": "icon-lightbulb",
-            "skills":[ "Git",  "SQL", "R", "Python", "Competitive Analysis", "Data Visualization", "Critical Thinking", "Presentation", "SASS", "Tableau", "Adobe Premiere Pro", "Adobe After Effect"]
+            "skills":["Data Visualization", "Computer Graphics", "Virtual Reality", "DIY PCs", "UX Design", 
+                    "Distributed Systems"]
         }
     ], 
     "Education": [
