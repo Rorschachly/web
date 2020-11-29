@@ -1,315 +1,579 @@
 {
     "ProfessionalExperience": [
         {
-            "companyN":"Asian Pacific American Leadership Institute",
-            "role": "Youth Leadership Academy - Mentee",
-            "date": "Jun 2015 - Aug 2015",
-            "location": "Cupertino, CA",
-            "description":[
-                "Leadership Development: Explore Asian American cultural roots/identity, social justice, personal leadership, community empowerment, and non-traditional civic careers/service",
-                "Leadership Project: Developed a social media campaign to help raise awareness in high school students' mental health issue, especially around Asian American communities."],
-            "link":"https://apali.org/programs/yla/",
-            "category":"school",
-            "categoryC":"#6895B3"
+            "companyN": "Starbucks",
+            "role": "Software Engineer",
+            "date": "Jul 2020 - Present",
+            "location": "Seattle, WA",
+            "description": [
+                "Design and implementation of RESTful APIs",
+                "Develop infrastructure automation on continuous delivery",
+                "Design and implement solutions on the cloud using Microsoft Azure"
+            ],
+            "category": "full-time",
+            "categoryColor": "#6895B3"
+        },
+        {
+            "companyN": "University of Washington",
+            "role": "Teaching Assistant",
+            "date": "Jan 2020 - Jun 2020",
+            "location": "Seattle, WA",
+            "description": [
+                "Data Visualization",
+                "Computer Graphics"
+            ],
+            "category": "school",
+            "categoryColor": "#748392"
+        },
+        {
+            "companyN": "Starbucks",
+            "role": "Software Engineering Intern",
+            "date": "Jun 2019 - Aug 2019",
+            "location": "Seattle, WA",
+            "description": [
+                "Build a Proof of Concept of a smarter search engine using ElasticSearch and React. Design an evaluation program that measures the quality of a search engine using ElasticSearch and Node.JS. Both contribute to a smoother search experience for Starbucks Partners that retrieves accurate documents.",
+                "Build a slack bot that keeps track of the person on-call in PagerDuty, and deploy to the Azure function to help improve the productivity of the team.",
+                "Create a label-search page that displays the store and partner information to increase the efficiency of viewing data using PUG HTML, and Node.js"
+            ],
+            "category": "internship",
+            "categoryColor": "#6D9599"
+        },
+        {
+            "companyN": "UW Reality Lab",
+            "role": "Research Assistant",
+            "date": "Apr 2019 - Jan 2020",
+            "location": "Seattle, WA",
+            "description": [
+                "Capture 3D video data for reconstruction in VR/AR",
+                "Run free supervision software on video games."
+            ],
+            "category": "school",
+            "categoryColor": "#748392"
+        },
+        {
+            "companyN": "UW Frameworld Media Production Club",
+            "role": "Director of Post Production",
+            "date": "Sep 2017 - May 2019",
+            "location": "Seattle, WA",
+            "description": [
+                "Organize a 20-people video production team.",
+                "Lead and edit personal interviews, short films, and music videos.",
+                "Give guest lectures about the art and techniques of video editing to other clubs."
+            ],
+            "category": "school",
+            "categoryColor": "#748392"
+        },
+        {
+            "companyN": "Luoyang Museum of Epigraphy",
+            "role": "Web Developer",
+            "date": "Jun 2017 - Sep 2017",
+            "location": "Luoyang, China",
+            "description": [
+                "Design and implement the official website for the museum."
+            ],
+            "category": "internship",
+            "categoryColor": "#6D9599"
         }
     ],
     "PastProjects": [
         {
-            "name":"Sharding KVStore with Paxos consensus algorithm",
+            "name": "Sharding KVStore with Paxos consensus algorithm",
             "client": "",
-            "role":"Developer",
+            "role": "Developer",
             "link": "",
             "duration": "3 Weeks",
-            "date":"May 2020 - June 2020",
-            "skills":[["Design", "icon-tools", "100%"]],
+            "date": "May 2020 - June 2020",
+            "skills": [
+                [
+                    "Design",
+                    "icon-tools",
+                    "100%"
+                ]
+            ],
             "location": "Seattle, WA",
             "sDescription": "Implemented the distributed system protocol Paxos and achieve scalable and fault-tolerant shard master which supports concurrent put/get/delete operations for a key-value store application.",
             "lDescription": "",
-            "designTools": ["Java, Lombok"],
-            "tools":["Prototyping", "User Story", "User Flow", "Storyboarding", "A/B Testing"],
-            "img":"img/project/paxos.png",
-            "categories":["backend"]
-        }, 
+            "designTools": [
+                "Java, Lombok"
+            ],
+            "tools": [
+                "Prototyping",
+                "User Story",
+                "User Flow",
+                "Storyboarding",
+                "A/B Testing"
+            ],
+            "img": "img/project/paxos.png",
+            "categories": [
+                "backend"
+            ]
+        },
         {
-            "name":"Network Physics Game",
+            "name": "Network Physics Game",
             "client": "",
-            "role":"Developer",
+            "role": "Developer",
             "link": "https://www.youtube.com/watch?v=6zxJ1rezIDY",
             "duration": "2 weeks",
-            "date":"March 2020",
-            "skills":[["Design", "icon-tools", "100%"]],
+            "date": "March 2020",
+            "skills": [
+                [
+                    "Design",
+                    "icon-tools",
+                    "100%"
+                ]
+            ],
             "location": "Seattle, WA",
             "sDescription": "Designed and implemented a network game that supports up-to-five clients concurrently sending and getting game snapshots from the server and achieve real-time physics simulations that sync with all the other nodes.",
             "lDescription": "",
-            "designTools": ["C#, Unity"],
-            "tools":[""],
-            "img":"img/project/networkphysics.png",
-            "categories":["backend"]
-        }, 
+            "designTools": [
+                "C#, Unity"
+            ],
+            "tools": [
+                ""
+            ],
+            "img": "img/project/networkphysics.png",
+            "categories": [
+                "backend"
+            ]
+        },
         {
-            "name":"Bilibili Subscriptions API and visualization",
+            "name": "Bilibili Subscriptions API and visualization",
             "client": "",
-            "role":"Developer",
+            "role": "Developer",
             "link": "https://github.com/Rorschachly/BilibiliDataAnalysis",
             "duration": "2 weeks",
-            "date":"Febuary 2020",
-            "skills":[["Design", "icon-tools", "30%"], ["Development", "icon-tools-2", "70%"]],
+            "date": "Febuary 2020",
+            "skills": [
+                [
+                    "Design",
+                    "icon-tools",
+                    "30%"
+                ],
+                [
+                    "Development",
+                    "icon-tools-2",
+                    "70%"
+                ]
+            ],
             "location": "Seattle, WA",
             "sDescription": "Code that keeps track of the subscriptions of specific Bilibili uploaders and generates time-series chart using Python.",
             "lDescription": "",
-            "designTools": ["Python"],
-            "tools":["Prototyping", "User Story", "User Flow", "Storyboarding", "A/B Testing"],
-            "img":"img/project/bilibiliSubscriptions.png",
-            "categories":["data-av"]
-        }, 
+            "designTools": [
+                "Python"
+            ],
+            "tools": [
+                "Prototyping",
+                "User Story",
+                "User Flow",
+                "Storyboarding",
+                "A/B Testing"
+            ],
+            "img": "img/project/bilibiliSubscriptions.png",
+            "categories": [
+                "data-av"
+            ]
+        },
         {
-            "name":"US University Ranking Visualization",
+            "name": "US University Ranking Visualization",
             "client": "",
-            "role":"Developer",
+            "role": "Developer",
             "link": "https://rorschachly.github.io/UniversityVisualization/",
             "duration": "4 Weeks",
-            "date":"November 2018 - December 2018",
-            "skills":[["Design", "icon-tools", "40%"]],
+            "date": "November 2018 - December 2018",
+            "skills": [
+                [
+                    "Design",
+                    "icon-tools",
+                    "40%"
+                ]
+            ],
             "location": "Seattle, WA",
             "sDescription": "Implemented the scatter plot, line chart, pie chart with animatic transitions using JavaScript D3 library to demonstrate the university rankings and trends.",
             "lDescription": "",
-            "designTools": ["JavaScript, D3.js"],
-            "tools":["Prototyping", "User Story", "User Flow", "Storyboarding", "A/B Testing"],
-            "img":"img/project/universityviz.png",
-            "categories":["front-end", "data-av"]
+            "designTools": [
+                "JavaScript, D3.js"
+            ],
+            "tools": [
+                "Prototyping",
+                "User Story",
+                "User Flow",
+                "Storyboarding",
+                "A/B Testing"
+            ],
+            "img": "img/project/universityviz.png",
+            "categories": [
+                "front-end",
+                "data-av"
+            ]
         },
         {
-            "name":"An Adaptation of Frankenstein",
+            "name": "An Adaptation of Frankenstein",
             "client": "",
-            "role":"Developer, Director",
+            "role": "Developer, Director",
             "link": "https://rorschachly.github.io/FranekensteinStatic/",
             "duration": "2 Weeks",
-            "date":"May 2019 - June 2019",
-            "skills":[["Design", "icon-tools", "40%"], ["Development", "icon-tools-2", "60%"]],
+            "date": "May 2019 - June 2019",
+            "skills": [
+                [
+                    "Design",
+                    "icon-tools",
+                    "40%"
+                ],
+                [
+                    "Development",
+                    "icon-tools-2",
+                    "60%"
+                ]
+            ],
             "location": "Seattle, WA",
             "sDescription": "The creative adaptation of the famous book Frankenstein made by HTML and JavaScript.",
             "lDescription": "",
-            "designTools": [""],
-            "tools":["JavaScript"],
-            "img":"img/project/frankenstein.png",
-            "categories":["front-end"]
+            "designTools": [
+                ""
+            ],
+            "tools": [
+                "JavaScript"
+            ],
+            "img": "img/project/frankenstein.png",
+            "categories": [
+                "front-end"
+            ]
         },
         {
-            "name":"Sketch Simplification",
+            "name": "Sketch Simplification",
             "client": "",
-            "role":"Developer",
+            "role": "Developer",
             "link": "http://155.138.238.163/images/academic/CSE455finalposter.jpg",
             "duration": "3 Week",
-            "date":"November 2019 - December 2019",
+            "date": "November 2019 - December 2019",
             "location": "Seattle, WA",
             "sDescription": "Implement and researched on a computer vision project that simplifies from any static pencil sketch image into line art. Involved with the script that manipulates data augmentation and training process.",
             "lDescription": "",
-            "tools":["Python", "PyTorch"],
-            "img":"img/project/sketchsimplify.png",
-            "categories":["machine-learning"]
+            "tools": [
+                "Python",
+                "PyTorch"
+            ],
+            "img": "img/project/sketchsimplify.png",
+            "categories": [
+                "machine-learning"
+            ]
         },
         {
-            "name":"Ocean with Caustics VR",
+            "name": "Ocean with Caustics VR",
             "client": "",
-            "role":"Technical Artist",
+            "role": "Technical Artist",
             "link": "https://github.com/Rorschachly/OceanVR",
             "duration": "1 weeks",
-            "date":"December 2019",
+            "date": "December 2019",
             "location": "Seattle, WA",
             "sDescription": "A VR scene made by Unity with caustics effects.",
             "lDescription": "",
-            "tools":["Unity"],
-            "img":"img/project/ocean.png",
-            "categories":["animation-game"]
+            "tools": [
+                "Unity"
+            ],
+            "img": "img/project/ocean.png",
+            "categories": [
+                "animation-game"
+            ]
         },
         {
-            "name":"Dogfight Animation",
+            "name": "Dogfight Animation",
             "client": "",
-            "role":"Developer, Director, Editor",
+            "role": "Developer, Director, Editor",
             "link": "https://courses.cs.washington.edu/courses/cse457/19sp/projects/animator/artifacts/7/animation.mp4",
             "duration": "2 days",
-            "date":"June 2019",
+            "date": "June 2019",
             "location": "Seattle, WA",
             "sDescription": "The animation is about dogfight of airplanes. It is made by the animation engine that we code by oursevels in the computer graphics course. Enjoy!",
             "lDescription": "",
-            "tools":["Self-made animation engine"],
-            "img":"img/project/dogfight.png",
-            "categories":["animation-game"]
+            "tools": [
+                "Self-made animation engine"
+            ],
+            "img": "img/project/dogfight.png",
+            "categories": [
+                "animation-game"
+            ]
         },
         {
-            "name":"Mousetrap 3D Animation",
+            "name": "Mousetrap 3D Animation",
             "client": "",
-            "role":"Director, Technical Artist",
+            "role": "Director, Technical Artist",
             "link": "https://www.youtube.com/watch?v=CtRndJy3mKg",
             "duration": "1 week",
-            "date":"March 2019",
+            "date": "March 2019",
             "location": "Seattle, WA",
             "sDescription": "I directed the story and the camera movement of the animation in the team.",
             "lDescription": "",
-            "tools":[""],
-            "img":"img/project/mousetrap.png",
-            "categories":["animation-game"]
+            "tools": [
+                ""
+            ],
+            "img": "img/project/mousetrap.png",
+            "categories": [
+                "animation-game"
+            ]
         },
         {
-            "name":"Sweet Home 3D scene",
+            "name": "Sweet Home 3D scene",
             "client": "",
-            "role":"Designer",
+            "role": "Designer",
             "link": "https://github.com/Rorschachly/CSE490JTechArtForGames",
             "duration": "1 week",
-            "date":"September 2019",
+            "date": "September 2019",
             "location": "Seattle, WA",
             "sDescription": "A dummy house and a dummy character that could be played.",
             "lDescription": "",
-            "tools":["Unity"],
-            "img":"img/project/sweethome.png",
-            "categories":["animation-game"]
+            "tools": [
+                "Unity"
+            ],
+            "img": "img/project/sweethome.png",
+            "categories": [
+                "animation-game"
+            ]
         },
-                
         {
-            "name":"Context Awaring Android Application",
+            "name": "Context Awaring Android Application",
             "client": "",
-            "role":"Developer",
+            "role": "Developer",
             "link": "https://www.youtube.com/watch?v=jVygaFfUk6k&feature=youtu.be",
             "duration": "2 weeks",
-            "date":"June 2019",
+            "date": "June 2019",
             "location": "Seattle, WA",
             "sDescription": "An Android app that detects the location and time of the current user to generate different pictures through Google APIs.",
             "lDescription": "",
-            "tools":["Android Studio", "Java"],
-            "img":"img/project/contextaware.png",
-            "categories":["backend", "front-end"]
+            "tools": [
+                "Android Studio",
+                "Java"
+            ],
+            "img": "img/project/contextaware.png",
+            "categories": [
+                "backend",
+                "front-end"
+            ]
         },
         {
-            "name":"Video Game Sales Visualization",
+            "name": "Video Game Sales Visualization",
             "client": "",
-            "role":"Developer",
+            "role": "Developer",
             "link": "https://cse442-18f.github.io/A3-Video-Games-Sales/",
             "duration": "2 weeks",
-            "date":"November 2018",
+            "date": "November 2018",
             "location": "Seattle, WA",
             "sDescription": "Our dataset contains variables including global game sales, publisher names, year-of-release, critic scores, and user scores. To handle the 5 variables and demonstrate the trend of video game sales, we created two visualizations next to each other.",
             "lDescription": "",
-            "tools":["JavaScript", "D3.js"],
-            "img":"img/project/videogamesales.png",
-            "categories":["data-av", "front-end"]
+            "tools": [
+                "JavaScript",
+                "D3.js"
+            ],
+            "img": "img/project/videogamesales.png",
+            "categories": [
+                "data-av",
+                "front-end"
+            ]
         },
         {
-            "name":"Pokedex Online Battle System",
+            "name": "Pokedex Online Battle System",
             "client": "",
-            "role":"Developer",
-            "link":"",
+            "role": "Developer",
+            "link": "",
             "duration": "3 weeks",
-            "date":"Jun 2017",
+            "date": "Jun 2017",
             "location": "Seattle, WA",
             "sDescription": "It is a web game with established frontend and backend. The player will have a pokemon that could battle with the AI or online players.",
             "lDescription": "",
-            "tools":["HTML5", "php", "JavaScript"],
-            "img":"img/project/pokedex.png",
-            "categories":["front-end", "backend", "animation-game"]
+            "tools": [
+                "HTML5",
+                "php",
+                "JavaScript"
+            ],
+            "img": "img/project/pokedex.png",
+            "categories": [
+                "front-end",
+                "backend",
+                "animation-game"
+            ]
         },
         {
-            "name":"Flight Transaction Reservation System",
+            "name": "Flight Transaction Reservation System",
             "client": "",
-            "role":"Developer",
-            "link":"",
+            "role": "Developer",
+            "link": "",
             "duration": "3 weeks",
-            "date":"Jun 2018",
+            "date": "Jun 2018",
             "location": "Seattle, WA",
             "sDescription": "A database application that supports parallel transaction for flight ticket reservations.",
             "lDescription": "",
-            "tools":["Database Application and Transaction Management"],
-            "img":"img/project/transaction.png",
-            "categories":["backend"]
+            "tools": [
+                "Database Application and Transaction Management"
+            ],
+            "img": "img/project/transaction.png",
+            "categories": [
+                "backend"
+            ]
         },
-        
         {
-            "name":"Graphics Engine",
+            "name": "Graphics Engine",
             "client": "",
-            "role":"Developer",
+            "role": "Developer",
             "link": "https://courses.cs.washington.edu/courses/cse457/19sp/src/animator/animator.php",
             "duration": "10 weeks",
-            "date":"March 2019 - June 2019",
+            "date": "March 2019 - June 2019",
             "location": "Seattle, WA",
             "sDescription": "A Graphics Engine that supports tool brushes, ray-tracing, animation, and many foundational graphics geometries.",
             "lDescription": "",
-            "tools":["QTCreator"],
-            "img":"img/project/notredame.png",
-            "categories":["animation-game"]
+            "tools": [
+                "QTCreator"
+            ],
+            "img": "img/project/notredame.png",
+            "categories": [
+                "animation-game"
+            ]
         }
     ],
     "SkillSet": [
         {
             "title": "Programming Language",
             "iconLink": "icon-browser",
-            "skills": ["JavaScript", "Java", "C++", "C", "C#", "Python", "SQL", "HTML5", "CSS3"]
+            "skills": [
+                "JavaScript",
+                "Java",
+                "C++",
+                "C",
+                "C#",
+                "Python",
+                "SQL",
+                "HTML5",
+                "CSS3"
+            ]
         },
         {
             "title": "Technologies",
             "iconLink": "icon-pencil",
-            "skills": ["Git", "AWS", "Google Computing Engine", "Microsoft Azure", "D3.js", "Bootstrap", "OpenGL"]
+            "skills": [
+                "Git",
+                "AWS",
+                "Google Computing Engine",
+                "Microsoft Azure",
+                "D3.js",
+                "Bootstrap",
+                "OpenGL"
+            ]
         },
         {
             "title": "Software",
             "iconLink": "icon-heart",
-            "skills": ["Unity", "Unreal Engine", "Tableau", "Adoble Video Production Suite"]
+            "skills": [
+                "Unity",
+                "Unreal Engine",
+                "Tableau",
+                "Adoble Video Production Suite"
+            ]
         },
         {
             "title": "Intermidiate Skills",
             "iconLink": "icon-lightbulb",
-            "skills":["Data Visualization", "Computer Graphics", "Virtual Reality", "DIY PCs", "UX Design", 
-                    "Distributed Systems"]
+            "skills": [
+                "Data Visualization",
+                "Computer Graphics",
+                "Virtual Reality",
+                "DIY PCs",
+                "UX Design",
+                "Distributed Systems"
+            ]
         }
-    ], 
+    ],
     "Education": [
         {
             "name": "Beijing National Day School",
             "year": "2011 - 2013",
-            "facts":["Teacher's Aide", "Qinglong Lake Park Volunteer Coordinator"],
+            "facts": [
+                "Teacher's Aide",
+                "Qinglong Lake Park Volunteer Coordinator"
+            ],
             "graduated": "yes"
         },
         {
             "name": "Saratoga High School",
             "year": "2013 - 2016",
-            "facts":["GPA: 3.74/4.0", "Multicultural Club - Activities Coordinator"],
+            "facts": [
+                "GPA: 3.74/4.0",
+                "Multicultural Club - Activities Coordinator"
+            ],
             "graduated": "yes"
         },
         {
             "name": "University of Washington",
             "year": "2016 - 2021",
-            "majors": ["Informatics - Human Computer Interaction, BS", "Psychology, BS"],
-            "facts": ["GPA: 3.79/4.0", "Annal Deans List 2016-2019"],
+            "majors": [
+                "Informatics - Human Computer Interaction, BS",
+                "Psychology, BS"
+            ],
+            "facts": [
+                "GPA: 3.79/4.0",
+                "Annal Deans List 2016-2019"
+            ],
             "graduated": "no"
         }
     ],
     "Courses": [
         {
-            "type":"Technical",
-            "class":"technical",
-            "color":"#748392",
-            "classes":["Computer Programming I & II", "Web Programming", "Client-side Programming",
-                        "Databases and Data Modeling","Data Structures and Algorithm", "Research Methods", 
-                        "Project Management", "Infomation System Analysis & Design", 
-                        "Population Health Informatics", "Interactive Information Visualization"]
-        }, 
-        {
-            "type":"Design",
-            "class":"design",
-            "color":"#6895B3",
-            "classes":["Foundation of Human Computer Interaction", "Mobile Application Design", 
-                        "Visual Information Design", "Design Methods", "Design Thinking", "Perception of Time by Design",
-                        "Mobile Application Design", "Colors"]
+            "type": "Technical",
+            "class": "technical",
+            "color": "#748392",
+            "classes": [
+                "Computer Programming I & II",
+                "Web Programming",
+                "Client-side Programming",
+                "Databases and Data Modeling",
+                "Data Structures and Algorithm",
+                "Research Methods",
+                "Project Management",
+                "Infomation System Analysis & Design",
+                "Population Health Informatics",
+                "Interactive Information Visualization"
+            ]
         },
         {
-            "type":"Psychology",
-            "class":"psych",
-            "color":"#6D9599",
-            "classes":["BioPsychology", "Developmental Psychology", "Cognitive Psychology", "Stress & Coping", "Learning and Memory", "Psychobiology of Women", "Psychological Research", "Statistics in Psychology"]
+            "type": "Design",
+            "class": "design",
+            "color": "#6895B3",
+            "classes": [
+                "Foundation of Human Computer Interaction",
+                "Mobile Application Design",
+                "Visual Information Design",
+                "Design Methods",
+                "Design Thinking",
+                "Perception of Time by Design",
+                "Mobile Application Design",
+                "Colors"
+            ]
         },
         {
-            "type":"Other",
-            "class":"",
-            "color":"#11365C",
-            "classes":["Social Problem", "Professional Writing", "Sculpture", "Ceramic", "Identity Development in Classroom", "Asian American History"]
-        } 
+            "type": "Psychology",
+            "class": "psych",
+            "color": "#6D9599",
+            "classes": [
+                "BioPsychology",
+                "Developmental Psychology",
+                "Cognitive Psychology",
+                "Stress & Coping",
+                "Learning and Memory",
+                "Psychobiology of Women",
+                "Psychological Research",
+                "Statistics in Psychology"
+            ]
+        },
+        {
+            "type": "Other",
+            "class": "",
+            "color": "#11365C",
+            "classes": [
+                "Social Problem",
+                "Professional Writing",
+                "Sculpture",
+                "Ceramic",
+                "Identity Development in Classroom",
+                "Asian American History"
+            ]
+        }
     ]
 }
