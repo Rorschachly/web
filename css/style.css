@@ -22,7 +22,7 @@ html {
 
 /* General */
 a, p, span, li {
-    color: #F6F4F1;
+    color: #363636;
     font-size: 1rem;
     font-family: 'Mukta Vaani', sans-serif;
 }
@@ -58,9 +58,15 @@ h3 {
     top: 0;
     right: 0;
     left: 0;
+<<<<<<< HEAD
     height: 8vh;
+=======
+    height: 7vh;
+>>>>>>> 9f9d87338b54e865f999bb3b914381c1fbd70b46
     z-index: 1030;
     padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #dbdbdb !important;
 }
 
 #navigation-bar header {
@@ -73,8 +79,7 @@ h3 {
     margin-top: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    color: #F7F5F5;
-    text-shadow: 0.5px 0.5px #647B5E;
+    color: #181818;
     letter-spacing: 1px;
     font-size: 1.2rem;
 }
@@ -95,48 +100,47 @@ h3 {
 
 
 #navigation-bar .navbar-nav li a {
-    color: #F7F5F5;
+    color: #181818;
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
-    text-shadow: 0.5px 0.5px #647B5E;
     font-size: 1rem;
 }
 
 #navigation-bar .navbar-nav li a:hover {
     font-weight: 300;
-    color: #F7F5F5!important;
+    color: #181818!important;
     padding-bottom: 1vh;
 }
 
 #navigation-bar .navbar-nav i {
-    color: #F7F5F5!important;
+    color: #181818!important;
 }
 
 /* Navigation Bar -- scrolled */
-#navigation-bar nav.scrolled {
+/* #navigation-bar nav.scrolled {
     background-color: rgb(255, 255, 255);
     box-shadow: 0.2px 0.2px 0.2px 0.2px lightgrey;
-}
+} */
 
-#navigation-bar .navbar-brand span.scrolled {
+/* #navigation-bar .navbar-brand span.scrolled {
     color: #11365C;
     text-shadow: 0.5px 0.5px #F7F5F5;
-}
+} */
 
-#navigation-bar .navbar-nav li a.scrolled {
+/* #navigation-bar .navbar-nav li a.scrolled {
     color: #11365C;
     text-shadow: 0.5px 0.5px #F7F5F5;
-}
+} */
 
-#navigation-bar .navbar-nav li a.scrolled:hover {
+/* #navigation-bar .navbar-nav li a.scrolled:hover {
     font-size: 1rem;
     color: rgb(3, 9, 15)!important;
     padding-bottom:1vh;
-}
+} */
 
-#navigation-bar .navbar-nav i.scrolled {
+/* #navigation-bar .navbar-nav i.scrolled {
     color: #11365C!important;
-}
+} */
 
 /* Nav Link Animation*/
 div.borderXwidth a:before, div.borderXwidth a:after
@@ -194,6 +198,10 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
     z-index: 0;
     background-size: cover;
     height: 100vh; 
+}
+
+#home-page {
+    color: #363636 !important;
 }
 
 
@@ -259,15 +267,17 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    padding: 20%;
 }
 
 #footer {
     color: #F6F4F1;
-    text-align: center;
-    background-color: rgb(33, 37, 41);
+    background-color: #181818;
     padding: 2vh 0vw;
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
+    text-align: end;
+    padding-right: 3%;
 }
 
 
@@ -347,8 +357,11 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
 #skill-card-container {
     width: 88vw;
     display: flex;
+<<<<<<< HEAD
     flex-wrap: wrap;
 
+=======
+>>>>>>> 9f9d87338b54e865f999bb3b914381c1fbd70b46
 }
 
 #skill-card-container  div.skill-card {
@@ -428,8 +441,13 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
 --------------------------------------------------------------*/
 
 #education {
+<<<<<<< HEAD
     background-color: #11365C;
     padding: 12vh 22vw 16vh 22vw;
+=======
+    background-color: #303D4F;
+    padding: 12vh 22vw 16vh 22vw
+>>>>>>> 9f9d87338b54e865f999bb3b914381c1fbd70b46
 }
 
 #education h2, #education h3, #education p, #education-card-container .education-icon i {
@@ -609,7 +627,7 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
 --------------------------------------------------------------*/
 
 #professional-experience {
-    background-color: #11365C;
+    background-color: #e9e9e9;
     padding: 12vh 18vw 18vh 18vw;
 }
 
@@ -619,7 +637,7 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
 }
 
 #professional-experience h2, #pro-card-container h3, #pro-card-container h4, #professional-experience p {
-    color: #F6F4F6;
+    color: #363636;
 }
 
 #professional-experience h2 {
@@ -690,7 +708,7 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
 }
 
 #pro-color-scheme-container span {
-    color: #F6F4F6;
+    color: #363636;
     font-family: 'Mukta Vaani', sans-serif;
     font-size:1.1rem;
     font-weight:300;
@@ -817,6 +835,7 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
     padding: 0 0 3px 0;
     margin: 0 25px;
     font-family: 'Athiti', sans-serif;
+    cursor: pointer;
 }
 
 #filters li:hover {
@@ -1282,8 +1301,9 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
         margin: 1vh 0vw 1vh 0.7vw;
     }
 }
-  
 
-
-
- 
+#JLlogo {
+    height: auto;
+    width: 5vh;
+    margin-left: 3vh;
+}
