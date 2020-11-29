@@ -58,11 +58,7 @@ h3 {
     top: 0;
     right: 0;
     left: 0;
-<<<<<<< HEAD
     height: 8vh;
-=======
-    height: 7vh;
->>>>>>> 9f9d87338b54e865f999bb3b914381c1fbd70b46
     z-index: 1030;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -357,11 +353,8 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
 #skill-card-container {
     width: 88vw;
     display: flex;
-<<<<<<< HEAD
     flex-wrap: wrap;
 
-=======
->>>>>>> 9f9d87338b54e865f999bb3b914381c1fbd70b46
 }
 
 #skill-card-container  div.skill-card {
@@ -441,13 +434,8 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
 --------------------------------------------------------------*/
 
 #education {
-<<<<<<< HEAD
     background-color: #11365C;
     padding: 12vh 22vw 16vh 22vw;
-=======
-    background-color: #303D4F;
-    padding: 12vh 22vw 16vh 22vw
->>>>>>> 9f9d87338b54e865f999bb3b914381c1fbd70b46
 }
 
 #education h2, #education h3, #education p, #education-card-container .education-icon i {
