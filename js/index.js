@@ -165,13 +165,13 @@ function renderExperience() {
     let proContainer = $('#pro-card-container');
     let experiences = personalData["ProfessionalExperience"];
     let colorContainer = $('#pro-color-scheme-container');
-    let colors = [["#748392", "Internship"], ["#6D9599", "Volunteer"], ["#6895B3", "School Activity"]];
+    let colors = [["#6895B3", "Full-Time"], ["#6D9599", "Internship"], ["#748392", "School Activity"]];
     colors.forEach((color) => {
         colorContainer.append('<div class="pro-color-block-card"><div class="pro-color-block" style="background-color:'+ color[0] + ';"></div><span>' + color[1]+ '</span></div>')
     })
     experiences.forEach((experience) => {
-        let card = $('<div class="pro-card revealOnScroll" style="border-left: 1vw solid ' + experience["categoryC"] + ';">')
-        if(experience["link"] !== "") {
+        let card = $('<div class="pro-card revealOnScroll" style="border-left: 1vw solid ' + experience["categoryColor"] + ';">')
+        if(experience["link"]) {
             let extlink = $('<a href="' + experience["link"] + '"><div class="pro-external-icon"><span class="icon-attachment" aria-hidden="true"></span></div></a>');
             $(card).append(extlink);
         }
