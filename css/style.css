@@ -218,7 +218,6 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    padding-top: 15vh;
 }
 
 
@@ -1235,4 +1234,23 @@ div.borderXwidth a.scrolled:before, div.borderXwidth a.scrolled:after
     height: auto;
     width: 5vh;
     margin-left: 3vh;
+}
+
+svg {
+    height: 10%;
+    width: 10%;
+    top: 10%;
+    left: 0;
+    fill: white;
+    position: absolute;
+}
+
+#canvas-wrap { 
+    position:relative 
+} /* Make this a positioned parent */
+
+#overlay {
+    position:absolute;
+    top:50%;
+    left:50%;
 }

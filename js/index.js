@@ -3,76 +3,76 @@ let filePath = "data/data.json";
 if ($('#portfolio').length == 1) {
     filePath = "../data/data.json";
 }
-$.getJSON(filePath, function(json) {
+$.getJSON(filePath, function (json) {
     personalData = json;
-     // this will show the info it in firebug console
-}).then(function() {
-    renderPage(); 
-    
+    // this will show the info it in firebug console
+}).then(function () {
+    renderPage();
+
 });
 
 function renderPage() {
     if ($('#home-page').length == 1) {
-        $(window).scroll(function() {
+        $(window).scroll(function () {
             // when window scroll, switch navigation bar stylesheet
-            if($(document).scrollTop() > 50) {
+            if ($(document).scrollTop() > 50) {
                 $("#navigation-bar nav").addClass("scrolled");
                 $("#navigation-bar .navbar-brand span").addClass("scrolled");
                 $("#navigation-bar .navbar-nav li a").addClass("scrolled");
-                $("#navigation-bar .navbar-nav i").addClass("scrolled");    
+                $("#navigation-bar .navbar-nav i").addClass("scrolled");
             } else {
                 $("#navigation-bar nav").removeClass("scrolled");
                 $("#navigation-bar .navbar-brand span").removeClass("scrolled");
                 $("#navigation-bar .navbar-nav li a").removeClass("scrolled");
-                $("#navigation-bar .navbar-nav i").removeClass("scrolled");    
-            } 
-            var scroll = window.requestAnimationFrame || function(callback) {
-                window.setTimeout(callback,1000/60)
+                $("#navigation-bar .navbar-nav i").removeClass("scrolled");
+            }
+            var scroll = window.requestAnimationFrame || function (callback) {
+                window.setTimeout(callback, 1000 / 60)
             };
-    
+
             let revealOnScroll = document.querySelectorAll('.revealOnScroll');
             function checkifInView() {
                 revealOnScroll.forEach((element) => {
-                    if(isElementInViewport(element)) {
+                    if (isElementInViewport(element)) {
                         $(element).addClass('current');
                         $(element).addClass('revealed');
                     } else {
                         $(element).removeClass('current');
                         // $(element).removeClass('revealed');
-    
+
                     }
                 })
-                
+
             }
-    
+
             checkifInView();
-    
+
         });
         renderHomePage();
 
-        
-        
+
+
     } else {
         showNavBar();
-        if($('#portfolio-page').length == 1) {
+        if ($('#portfolio-page').length == 1) {
             renderPortfolio();
-            $('#filters li.filter').click(function() {
+            $('#filters li.filter').click(function () {
                 $(".filter").removeClass("current");
                 $(this).addClass("current");
-                
+
                 // filterPortfolio
                 var filter = $(this).attr('value');
                 filterPortfolio(filter);
             });
         }
-        
-        if ($('.post-images-slider').length > 0 ) {
+
+        if ($('.post-images-slider').length > 0) {
             $('.post-images-slider').flexslider({
                 animation: "slide",
                 smoothHeight: true,
             });
-        } 
-    } 
+        }
+    }
 }
 
 /* Render Page */
@@ -81,7 +81,7 @@ function renderHomePage() {
     renderEducationHistory();
     renderCourse();
     renderExperience();
-    
+
 }
 
 function showNavBar() {
@@ -119,7 +119,7 @@ function renderEducationHistory() {
     educationHistory.forEach((education) => {
         let container = $('<div class="education-card revealOnScroll">');
         // choose icon based on graduate status
-        if(education["graduated"] === "yes") {
+        if (education["graduated"] === "yes") {
             $(container).append('<div class="education-icon"><i class="fas fa-graduation-cap"></i></div>');
         } else {
             $(container).append('<div class="education-icon"><i class="fas fa-university"></i></div>');
@@ -128,11 +128,11 @@ function renderEducationHistory() {
         let name = $('<h3>' + education.name + '</h3>' + '<p class="education-year">' + education.year + '</p>');
         // render major content
         let majorContainer = $('<div class="major-container"></div>');
-        if(education["majors"] !== undefined) {
+        if (education["majors"] !== undefined) {
             education["majors"].forEach((major) => {
                 $(majorContainer).append('<p>' + major + '</p>');
             })
-        } 
+        }
         // render fact content
         let factContainer = $('<div class="fact-container"></div>');
         let facts = ""
@@ -140,7 +140,7 @@ function renderEducationHistory() {
             if (facts === "") {
                 facts += fact
             } else {
-                facts = facts +  ", " + fact;
+                facts = facts + ", " + fact;
             }
         });
         $(factContainer).append('<p>' + facts + '</p>');
@@ -160,7 +160,7 @@ function renderCourse() {
             $(courseCardContainer).append('<span class="revealOnScroll ' + course.class + '">' + classes + '</span>');
         });
         let courseColorScheme = $('#course-color-scheme-container');
-        let scheme = $('<div><div class="course-color-block" style="background-color:'+ course.color + ';"></div><span>' + course.type + '</span></div>');
+        let scheme = $('<div><div class="course-color-block" style="background-color:' + course.color + ';"></div><span>' + course.type + '</span></div>');
         $(courseColorScheme).append(scheme);
     })
 }
@@ -171,11 +171,11 @@ function renderExperience() {
     let colorContainer = $('#pro-color-scheme-container');
     let colors = [["#6895B3", "Full-Time"], ["#6D9599", "Internship"], ["#748392", "School Activity"]];
     colors.forEach((color) => {
-        colorContainer.append('<div class="pro-color-block-card"><div class="pro-color-block" style="background-color:'+ color[0] + ';"></div><span>' + color[1]+ '</span></div>')
+        colorContainer.append('<div class="pro-color-block-card"><div class="pro-color-block" style="background-color:' + color[0] + ';"></div><span>' + color[1] + '</span></div>')
     })
     experiences.forEach((experience) => {
         let card = $('<div class="pro-card revealOnScroll" style="border-left: 1vw solid ' + experience["categoryColor"] + ';">')
-        if(experience["link"]) {
+        if (experience["link"]) {
             let extlink = $('<a href="' + experience["link"] + '"><div class="pro-external-icon"><span class="icon-attachment" aria-hidden="true"></span></div></a>');
             $(card).append(extlink);
         }
@@ -198,7 +198,7 @@ function renderPortfolio() {
     projects.forEach((project) => {
         let categories = ""
         project["categories"].forEach((category) => {
-            if(categories === "") {
+            if (categories === "") {
                 categories += category;
             } else {
                 categories = categories + " " + category
@@ -206,8 +206,8 @@ function renderPortfolio() {
         })
         let projectContainer = $('<li class="p-item" data-category="' + categories + '"></li>');
         let projectContent = $('<a href="' + project["link"] + '"></a>');
-        let imgContainer = $('<div class="p-image"><img src="' +  project["img"] + '" alt="' + project["name"] + '"/></div>')
-        let captionContainer =$(`<div class="p-caption">
+        let imgContainer = $('<div class="p-image"><img src="' + project["img"] + '" alt="' + project["name"] + '"/></div>')
+        let captionContainer = $(`<div class="p-caption">
                                     <div class="p-date">` + project["date"] + `</div>
                                     <h3 class="p-title">` + project["name"] + `</h3>
                                     <div class="p-desc">` + project["sDescription"] + `</div>
@@ -239,17 +239,17 @@ function filterPortfolio(value) {
 function isElementInViewport(el) {
     // special bonus for those using jQuery
     if (typeof jQuery === "function" && el instanceof jQuery) {
-    el = el[0];
+        el = el[0];
     }
     var rect = el.getBoundingClientRect();
     return (
-    (rect.top <= 0
-        && rect.bottom >= 0)
-    ||
-    (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.top <= (window.innerHeight || document.documentElement.clientHeight))
-    ||
-    (rect.top >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+        (rect.top <= 0
+            && rect.bottom >= 0)
+        ||
+        (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+        ||
+        (rect.top >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
     );
 }
